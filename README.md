@@ -11,8 +11,70 @@ I will be using this repository for future projects and leetcode practice.
 
 - Double Linked List
 
-## Algorithms
+- Stack
 
+- Queue
+
+- Binary Search Tree
+
+- Heap
+
+- Hash Table
+
+- Graph
+
+- AVL Tree
+
+- Red Black Tree
+
+- Disjoint Sets
+
+## Algorithms
+- Linked List Traversal
+
+- Linked List Reverse Traversal
+
+- Bubble Sort
+
+- Selection Sort
+
+- Insertion Sort
+
+- Mergesort
+
+- Heapsort
+
+- Quicksort
+
+- Binary Search
+
+- Depth-First Search
+
+- Breadth-First Search
+
+- Kruskal's
+
+- Djikstra
+
+- Bellman-Ford
+
+- Floyd-Warshall
+
+- Prim's
+
+- Topological Sorting
+
+- Eulerian Path
+
+- Eulerian Cycle
+
+- Hamiltonian Cycle 
+
+- Strongly Connected Components
+
+- Knapsack
+
+- Hamming Distance
 
 ## Operations Complexity
 
