@@ -39,12 +39,7 @@ I will be using this repository for future projects and leetcode practice.
 
 - Breadth-First Search
 
-###
-
-
-- Linked List Traversal
-
-- Linked List Reverse Traversal
+### Sorting Algorithms
 
 - Bubble Sort
 
@@ -58,13 +53,14 @@ I will be using this repository for future projects and leetcode practice.
 
 - Quicksort
 
-- Kruskal's
-
-- Djikstra
-
+### Graph Algorithms
 - Bellman-Ford
 
 - Floyd-Warshall
+
+- Kruskal's
+
+- Djikstra
 
 - Prim's
 
@@ -77,6 +73,8 @@ I will be using this repository for future projects and leetcode practice.
 - Hamiltonian Cycle 
 
 - Strongly Connected Components
+
+### Others
 
 - Knapsack
 
