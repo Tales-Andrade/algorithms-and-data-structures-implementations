@@ -11,9 +11,9 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Double Linked List](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/DoubleLinkedList)
 
-- Stack
+- [Stack](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/Stack)
 
-- Queue
+- [Queue](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/Queue)
 
 - Binary Search Tree
 
@@ -81,5 +81,8 @@ I will be using this repository for future projects and leetcode practice.
 | Data Structure | Add | Remove | Get | Search |
 | --- | --- | --- | --- | --- |
 | Array List     | | | | |
+| --- | --- | --- | --- | --- |
 | Single Linked List | | | | |
+| --- | --- | --- | --- | --- |
 | Double Linked List | | | | |
+| --- | --- | --- | --- | --- |
