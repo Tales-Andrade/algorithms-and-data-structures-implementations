@@ -128,7 +128,7 @@ public class SingleLinkedList<E>
 
                 size -=  1;
 
-                return head.getElement();
+                return tmp.getElement();
             }
             else
             {
@@ -274,6 +274,8 @@ public class SingleLinkedList<E>
         sll.set(2, "warrior!");
 
         sll.print();
+
+        System.out.println(sll.get(2));
 
         sll.remove(1);
 
