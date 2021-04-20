@@ -9,7 +9,7 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Single Linked List](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/SingleLinkedList)
 
-- Double Linked List
+- [Double Linked List](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/DoubleLinkedList)
 
 - Stack
 
