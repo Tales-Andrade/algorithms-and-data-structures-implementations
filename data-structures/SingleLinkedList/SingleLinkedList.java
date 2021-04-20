@@ -228,6 +228,28 @@ public class SingleLinkedList<E>
         System.out.println();
     }
 
+    public void reverse()
+    {
+        Node<E> tmp, left, right;
+
+        if (this.head != null)
+        {
+            left = null;
+            right = this.head;
+
+            for(int i = 0; i < this.getSize(); i++)
+            {
+                tmp = right.getNext();
+                right.setNext(left);
+                left = right;
+                right = tmp;
+            }
+
+            this.tail = this.head;
+            this.head = left;
+        }
+    }
+
     private class Node<E>
     {
         private Node<E> next;
@@ -278,6 +300,10 @@ public class SingleLinkedList<E>
         System.out.println(sll.get(2));
 
         sll.remove(1);
+
+        sll.print();
+
+        sll.reverse();
 
         sll.print();
     }

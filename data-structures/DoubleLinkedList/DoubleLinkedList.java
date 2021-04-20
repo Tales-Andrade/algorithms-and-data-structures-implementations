@@ -232,6 +232,25 @@ public class DoubleLinkedList<E>
         System.out.println();
     }
 
+    public void reverse()
+    {
+        Node<E> tmp, next;
+
+        tmp = this.head;
+
+        for (int i = 0; i < this.getSize(); i++)
+        {
+            next = tmp.getNext();
+            tmp.setNext(tmp.getPrevious());
+            tmp.setPrevious(next);
+            tmp = next;
+        }
+
+        tmp = head;
+        head = tail;
+        tail = tmp;
+    }
+
     private class Node<E>
     {
         private E element;
@@ -297,5 +316,9 @@ public class DoubleLinkedList<E>
         dll.print();
 
         System.out.println(dll.get(1));
+
+        dll.reverse();
+
+        dll.print();
     }
 }
