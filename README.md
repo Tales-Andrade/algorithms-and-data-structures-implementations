@@ -79,10 +79,6 @@ I will be using this repository for future projects and leetcode practice.
 ## Operations Complexity
 
 | Data Structure | Add | Remove | Get | Search |
-| --- | --- | --- | --- | --- |
 | Array List     | | | | |
-| --- | --- | --- | --- | --- |
 | Single Linked List | | | | |
-| --- | --- | --- | --- | --- |
 | Double Linked List | | | | |
-| --- | --- | --- | --- | --- |
