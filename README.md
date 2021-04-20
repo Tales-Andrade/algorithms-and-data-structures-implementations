@@ -30,6 +30,18 @@ I will be using this repository for future projects and leetcode practice.
 - Disjoint Sets
 
 ## Algorithms
+
+### Search Algorithms
+
+- Binary Search
+
+- Depth-First Search
+
+- Breadth-First Search
+
+###
+
+
 - Linked List Traversal
 
 - Linked List Reverse Traversal
@@ -45,12 +57,6 @@ I will be using this repository for future projects and leetcode practice.
 - Heapsort
 
 - Quicksort
-
-- Binary Search
-
-- Depth-First Search
-
-- Breadth-First Search
 
 - Kruskal's
 
