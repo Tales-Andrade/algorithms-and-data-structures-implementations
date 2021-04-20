@@ -80,6 +80,8 @@ I will be using this repository for future projects and leetcode practice.
 
 | Data Structure | Add | Remove | Get | Search |
 | --- | --- | --- | --- | --- |
-| Array List     | | | | |
-| Single Linked List | | | | |
-| Double Linked List | | | | |
+| Array List | O(n) | O(n) | O(1) | O(n) |
+| Single Linked List | O(1) | O(1) | O(n) | O(n) |
+| Double Linked List | O(1) | O(1) | O(n) | O(n) |
+| Stack | O(1) | O(1) | O(n) | O(n) |
+| Queue | O(1) | O(1) | O(n) | O(n) |
