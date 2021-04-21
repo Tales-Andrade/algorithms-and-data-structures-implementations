@@ -15,7 +15,7 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Queue](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/Queue)
 
-- Binary Search Tree
+- [Binary Search Tree](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/BinarySearchTree)
 
 - Heap
 
@@ -80,12 +80,13 @@ I will be using this repository for future projects and leetcode practice.
 
 - Hamming Distance
 
-## Operations Complexity
+## Time Complexity
 
 | Data Structure | Add | Remove | Get | Search |
 | --- | --- | --- | --- | --- |
 | Array List | O(n) | O(n) | O(1) | O(n) |
-| Single Linked List | O(1) | O(1) | O(n) | O(n) |
-| Double Linked List | O(1) | O(1) | O(n) | O(n) |
+| Single Linked List | O(1) | O(n) | O(n) | O(n) |
+| Double Linked List | O(1) | O(n) | O(n) | O(n) |
 | Stack | O(1) | O(1) | O(n) | O(n) |
 | Queue | O(1) | O(1) | O(n) | O(n) |
+| Binary Search Tree | O(log(n)) | O(log(n)) | O(log(n)) | O(log(n)) |
