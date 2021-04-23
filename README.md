@@ -21,9 +21,9 @@ I will be using this repository for future projects and leetcode practice.
 
 - [MaxHeap](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/MaxHeap)
 
-- Priority Queue
+- [Priority Queue](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/PriorityQueue)
 
-- Hash Table
+- [Hash Table](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/HashTable)
 
 - Graph
 
@@ -96,3 +96,4 @@ I will be using this repository for future projects and leetcode practice.
 | Binary Search Tree | O(log(n)) | O(log(n)) | O(log(n)) | O(log(n)) |
 | Min Heap | O(log(n)) | O(log(n)) | O(1) | O(n) |
 | Max Heap | O(log(n)) | O(log(n)) | O(1) | O(n) |
+| Hash Table | O(n) | O(n) | O(n) | O(n) |
