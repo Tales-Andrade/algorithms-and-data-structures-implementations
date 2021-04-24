@@ -25,13 +25,13 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Hash Table](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/HashTable)
 
+- [Disjoint Sets](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/DisjointSets)
+
 - Graph
 
 - AVL Tree
 
 - Red Black Tree
-
-- Disjoint Sets
 
 ## Algorithms
 
