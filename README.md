@@ -21,8 +21,6 @@ I will be using this repository for future projects and leetcode practice.
 
 - [MaxHeap](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/MaxHeap)
 
-- [Priority Queue](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/PriorityQueue)
-
 - [Hash Table](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/HashTable)
 
 - [Disjoint Sets](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/DisjointSets)
