@@ -35,7 +35,7 @@ I will be using this repository for future projects and leetcode practice.
 
 ### Search Algorithms
 
-- Binary Search
+- [Binary Search](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/BinarySearch)
 
 - Depth-First Search
 
