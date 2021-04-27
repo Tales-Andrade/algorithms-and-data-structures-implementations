@@ -43,7 +43,7 @@ I will be using this repository for future projects and leetcode practice.
 
 ### Sorting Algorithms
 
-- Bubble Sort
+- [Bubble Sort](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/BubbleSort)
 
 - Selection Sort
 
