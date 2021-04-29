@@ -15,9 +15,12 @@ public class UndirectedGraph<T extends Comparable<T>>{
         return vertexMap.get(vertex.getElement());
     }
 
-    public void addEdge(Edge<T> edgeOne, Edge<T> edgeTwo){
-        edgeTwo.getVertex().addEdge(edgeOne);
-        edgeOne.getVertex().addEdge(edgeTwo);
+    public void addEdge(Vertex<T> vertexOne, Vertex<T> vertexTwo){
+        Edge<T> edgeOne = new Edge<T>(vertexOne);
+        Edge<T> edgeTwo = new Edge<T>(vertexTwo);
+
+        vertexOne.addEdge(edgeTwo);
+        vertexTwo.addEdge(edgeOne);
     }
 
     public void removeEdge(Vertex<T> vertex, Edge<T> edge){
