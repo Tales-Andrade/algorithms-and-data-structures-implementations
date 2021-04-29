@@ -59,6 +59,7 @@ public class DirectGraph<T extends Comparable<T>>{
 
     public static void main(String[] args){
         DirectGraph<Integer> g = new DirectGraph<Integer>();
+        UndirectedGraph<Integer> g2 = new UndirectedGraph<Integer>();
 
         Vertex<Integer> v1 = new Vertex<Integer>(1);
         Vertex<Integer> v2 = new Vertex<Integer>(2);
@@ -102,8 +103,43 @@ public class DirectGraph<T extends Comparable<T>>{
         g.addEdge(v4, e11);
         g.addEdge(v5, e12);
 
+        Vertex<Integer> v21 = new Vertex<Integer>(1);
+        Vertex<Integer> v22 = new Vertex<Integer>(2);
+        Vertex<Integer> v23 = new Vertex<Integer>(3);
+        Vertex<Integer> v24 = new Vertex<Integer>(4);
+        Vertex<Integer> v25 = new Vertex<Integer>(5);
+        Vertex<Integer> v26 = new Vertex<Integer>(6);
+        Vertex<Integer> v27 = new Vertex<Integer>(7);
+
+        g2.addVertex(v21);
+        g2.addVertex(v22);
+        g2.addVertex(v23);
+        g2.addVertex(v24);
+        g2.addVertex(v25);
+        g2.addVertex(v26);
+        g2.addVertex(v27);
+
+        g2.addEdge(v21, v22);
+        g2.addEdge(v21, v23);
+        g2.addEdge(v21, v24);
+        g2.addEdge(v22, v24);
+        g2.addEdge(v22, v25);
+        g2.addEdge(v23, v26);
+        g2.addEdge(v24, v23);
+        g2.addEdge(v24, v26);
+        g2.addEdge(v24, v27);
+        g2.addEdge(v25, v24);
+        g2.addEdge(v25, v27);
+        g2.addEdge(v27, v26);
+
+        System.out.println("Test for direct graph");
         g.print();
 
+        System.out.println("---------------------------");
+        System.out.println("Test for undirected graph");
+        g2.print();
+
+        System.out.println("---------------------------");
         System.out.println("The code works.");
     }
 }
