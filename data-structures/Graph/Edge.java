@@ -1,32 +1,32 @@
-class Edge<Vertex>{
-    private Vertex startVertex;
-    private Vertex endVertex;
+class Edge<T>{
+    private Vertex<T> vertex;
     private int weight;
 
     // Weighted Graph
-    Edge(Vertex vertexOne, Vertex vertexTwo, int weight){
-        this.startVertex = vertexOne;
-        this.endVertex = vertexTwo;
+    Edge(Vertex<T> vertex, int weight){
+        this.vertex = vertex;
         this.weight = weight;
     }
 
     // Unweighted Graph
-    Edge(Vertex vertexOne, Vertex vertexTwo){
-        this.startVertex = vertexOne;
-        this.endVertex = vertexTwo;
+    Edge(Vertex<T> vertex){
+        this.vertex = vertex;
+        this.weight = 0;
     }
 
-    Vertex getEndVertex(){
-        return this.endVertex;
+    Vertex<T> getVertex(){
+        return this.vertex;
     }
 
-    void swap(){
-        Vertex tmp = this.startVertex;
-        this.startVertex = this.endVertex;
-        this.endVertex = tmp;
+    void setVertex(Vertex<T> vertex){
+        this.vertex = vertex;
     }
 
-    void print(){
-        System.out.println(startVertex.toString() + "-----" + endVertex.toString());
+    int getWeight(){
+        return this.weight;
+    }
+
+    void setWeight(int weight){
+        this.weight = weight;
     }
 }

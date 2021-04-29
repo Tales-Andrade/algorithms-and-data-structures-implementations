@@ -1,64 +1,100 @@
 import java.util.*;
 
-class Vertex<E>{
-    private ArrayList<Edge> edges = new ArrayList<Edge>();
-    private E element;
+class Vertex<T>{
+    private ArrayList<Edge<T>> adjList = new ArrayList<Edge<T>>();
+    private T element;
 
-    Vertex(E element){
+    Vertex(T element){
         this.element = element;
     }
 
-    void setElement(E element){
+    void setElement(T element){
         this.element = element;
     }
 
-    E getElement(){
+    T getElement(){
         return this.element;
     }
 
-    void addEdge(Edge edge){
-        this.edges.add(edge);
+    void addEdge(Edge<T> edge){
+        this.adjList.add(edge);
     }
 
-    void removeEdge(Edge edge){
-        this.edges.remove(edge);
+    void removeEdge(Edge<T> edge){
+        this.adjList.remove(edge);
     }
 
-    boolean hasEdge(Edge edge){
-        for (int i = 0; i < this.edges.size(); i++){
-            if (edge.equals(this.edges.get(i))) return true;
+    boolean hasEdge(Edge<T> edge){
+
+        for (Edge<T> edgeTwo : this.adjList){
+            if (edge.equals(edgeTwo)) return true;
         }
 
         return false;
     }
 
-    Edge findEdge(Vertex vertex){
-        for (int i = 0; i < this.edges.size(); i++){
-            if (this.edges.get(i).getEndVertex().equals(vertex)) return this.edges.get(i);
+    Edge<T> findEdge(Vertex<T> vertex){
+        for (Edge<T> edge : this.adjList){
+            if (edge.getVertex().equals(vertex)) return edge;
         }
 
         return null;
     }
 
-    boolean hasNeighbor(Vertex vertex){
-        for (int i = 0; i < this.edges.size(); i++){
-            if (this.edges.get(i).getEndVertex().equals(vertex)) return true;
+    boolean hasNeighbor(Vertex<T> vertex){
+        for (Edge<T> edge : this.adjList){
+            if (edge.getVertex().equals(vertex)) return true;
         }
 
         return false;
     }
 
+    ArrayList<T> getNeighbors(){
+        ArrayList<T> neighbors = new ArrayList<T>(this.adjList.size());
+
+        for (Edge<T> edge : this.adjList){
+            neighbors.add(edge.getVertex().getElement());
+        }
+
+        return neighbors;
+    }
+
+    boolean isAdjacent(Vertex<T> vertex){
+        for (Edge<T> edge : this.adjList){
+            if (edge.getVertex().equals(vertex)) return true;
+        }
+
+        return false;
+    }
+
+    int getTotalWeight(){
+        int totalWeight = 0;
+
+        for (Edge<T> edge : this.adjList){
+            totalWeight += edge.getWeight();
+        }
+
+        return totalWeight;
+    }
+
     int getDegree(){
-        return this.edges.size();
+        return this.adjList.size();
     }
 
     void clearEdges(){
-        for (Edge edge : this.edges){
+        for (Edge<T> edge : this.adjList){
             this.removeEdge(edge);
         }
     }
 
     void print(){
-        System.out.println(this.element.toString());
+        for (int i = 0; i < this.adjList.size(); i++){
+            if (i == (this.adjList.size() - 1)){
+                System.out.print(this.adjList.get(i).getVertex().getElement().toString());
+            }
+            else {
+                System.out.print(this.adjList.get(i).getVertex().getElement().toString() + ", ");
+            }
+        }
     }
 }
