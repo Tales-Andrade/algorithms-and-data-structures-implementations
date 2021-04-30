@@ -25,7 +25,7 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Disjoint Sets](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/DisjointSets)
 
-- Graph
+- [Graph](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/Graph)
 
 - AVL Tree
 
@@ -54,6 +54,8 @@ I will be using this repository for future projects and leetcode practice.
 - Heapsort
 
 - Quicksort
+
+- Radix Sort
 
 ### Graph Algorithms
 - Bellman-Ford
