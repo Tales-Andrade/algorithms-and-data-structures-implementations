@@ -37,10 +37,6 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Binary Search](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/BinarySearch)
 
-- [Tree Depth-First Search](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/TreeTraversal/DepthFirstSearch)
-
-- [Tree Breadth-First Search](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/TreeTraversal/BreadthFirstSearch)
-
 - [Graph Depth-First Search](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/GraphTraversal/DepthFirstSearch)
 
 - [Graph Breadth-First Search](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/GraphTraversal/BreadthFirstSearch)
