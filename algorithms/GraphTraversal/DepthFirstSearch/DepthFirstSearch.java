@@ -34,15 +34,17 @@ public class DepthFirstSearch<T>{
     }
 
     public static void main(String[] args){
-        DirectGraph<Integer> g = new DirectGraph<Integer>();
+        DirectGraph<Character> g = new DirectGraph<Character>();
 
-        Vertex<Integer> v1 = new Vertex<Integer>(1);
-        Vertex<Integer> v2 = new Vertex<Integer>(2);
-        Vertex<Integer> v3 = new Vertex<Integer>(3);
-        Vertex<Integer> v4 = new Vertex<Integer>(4);
-        Vertex<Integer> v5 = new Vertex<Integer>(5);
-        Vertex<Integer> v6 = new Vertex<Integer>(6);
-        Vertex<Integer> v7 = new Vertex<Integer>(7);
+        Vertex<Character> v1 = new Vertex<Character>('a');
+        Vertex<Character> v2 = new Vertex<Character>('b');
+        Vertex<Character> v3 = new Vertex<Character>('c');
+        Vertex<Character> v4 = new Vertex<Character>('d');
+        Vertex<Character> v5 = new Vertex<Character>('e');
+        Vertex<Character> v6 = new Vertex<Character>('f');
+        Vertex<Character> v7 = new Vertex<Character>('g');
+        Vertex<Character> v8 = new Vertex<Character>('h');
+        Vertex<Character> v9 = new Vertex<Character>('i');
 
         g.addVertex(v1);
         g.addVertex(v2);
@@ -51,32 +53,34 @@ public class DepthFirstSearch<T>{
         g.addVertex(v5);
         g.addVertex(v6);
         g.addVertex(v7);
+        g.addVertex(v8);
+        g.addVertex(v9);
 
-        Edge<Integer> e1 = new Edge<Integer>(v2);
-        Edge<Integer> e2 = new Edge<Integer>(v3);
-        Edge<Integer> e3 = new Edge<Integer>(v3);
-        Edge<Integer> e4 = new Edge<Integer>(v4);
-        Edge<Integer> e5 = new Edge<Integer>(v4);
-        Edge<Integer> e6 = new Edge<Integer>(v4);
-        Edge<Integer> e7 = new Edge<Integer>(v5);
-        Edge<Integer> e8 = new Edge<Integer>(v6);
-        Edge<Integer> e9 = new Edge<Integer>(v6);
-        Edge<Integer> e10 = new Edge<Integer>(v6);
-        Edge<Integer> e11 = new Edge<Integer>(v7);
-        Edge<Integer> e12 = new Edge<Integer>(v7);
+        g.addEdge(v1, v2);
+        g.addEdge(v1, v4);
+        g.addEdge(v2, v1);
+        g.addEdge(v2, v3);
+        g.addEdge(v2, v5);
+        g.addEdge(v3, v2);
+        g.addEdge(v3, v6);
+        g.addEdge(v4, v1);
+        g.addEdge(v4, v5);
+        g.addEdge(v4, v7);
+        g.addEdge(v5, v2);
+        g.addEdge(v5, v4);
+        g.addEdge(v5, v6);
+        g.addEdge(v5, v8);
+        g.addEdge(v6, v3);
+        g.addEdge(v6, v5);
+        g.addEdge(v6, v9);
+        g.addEdge(v7, v4);
+        g.addEdge(v7, v8);
+        g.addEdge(v8, v5);
+        g.addEdge(v8, v7);
+        g.addEdge(v8, v9);
+        g.addEdge(v9, v6);
+        g.addEdge(v9, v8);
 
-        g.addEdge(v1, e1);
-        g.addEdge(v1, e2);
-        g.addEdge(v4, e3);
-        g.addEdge(v1, e4);
-        g.addEdge(v2, e5);
-        g.addEdge(v5, e6);
-        g.addEdge(v2, e7);
-        g.addEdge(v3, e8);
-        g.addEdge(v4, e9);
-        g.addEdge(v7, e10);
-        g.addEdge(v4, e11);
-        g.addEdge(v5, e12);
 
         System.out.println("Test for direct graph");
         g.print();
