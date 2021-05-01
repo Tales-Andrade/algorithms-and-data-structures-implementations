@@ -131,20 +131,30 @@ public class MinHeap<T extends Comparable<T>>{
 
     public static void main(String[] args)
     {
-        MinHeap<Integer> heap = new MinHeap<Integer>();
+        MinHeap<Character> heap = new MinHeap<Character>();
 
-        heap.add(2);
-        heap.add(1);
-        heap.add(4);
-        heap.add(7);
-        heap.add(9);
-        heap.add(8);
-        heap.add(5);
+        heap.add('a');
+        heap.add('e');
+        heap.add('b');
+        heap.add('f');
+        heap.add('l');
+        heap.add('u');
+        heap.add('k');
+        heap.add('m');
+
+
+        heap.print();
+
+        heap.add('c');
 
         heap.print();
 
         System.out.println(heap.getSize());
     
+        heap.removeMin();
+
+        heap.print();
+
         heap.removeMin();
 
         heap.print();
