@@ -15,8 +15,10 @@ public class DirectGraph<T>{
         return vertexMap.get(vertex.getElement());
     }
 
-    public void addEdge(Vertex<T> vertex, Edge<T> edge){
-        vertex.addEdge(edge);
+    public void addEdge(Vertex<T> vertexOne, Vertex<T> vertexTwo){
+        Edge<T> edge = new Edge<T>(vertexTwo);
+
+        vertexOne.addEdge(edge);
     }
 
     public void removeEdge(Vertex<T> vertex, Edge<T> edge){
