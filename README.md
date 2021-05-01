@@ -27,9 +27,11 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Graph](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/Graph)
 
-- AVL Tree
+- [AVL Tree](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/data-structures/AVLTree)
 
 - Red Black Tree
+
+- Trie
 
 ## Algorithms
 
