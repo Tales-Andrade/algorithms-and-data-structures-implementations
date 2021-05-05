@@ -62,7 +62,7 @@ I will be using this repository for future projects and leetcode practice.
 - Radix Sort
 
 ### Other Algorithms
-- Bellman-Ford
+- [Bellman-Ford](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/BellmanFord)
 
 - Floyd-Warshall
 
