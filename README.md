@@ -59,9 +59,9 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Randomized Quicksort](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/RandomizedQuickSort)
 
-- Heapsort
+- [Heapsort](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/HeapSort)
 
-- Radix Sort
+- [Radix Sort](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/RadixSort)
 
 ### Other Algorithms
 - [Bellman-Ford](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/BellmanFord)
@@ -80,7 +80,7 @@ I will be using this repository for future projects and leetcode practice.
 
 - Eulerian Cycle
 
-- Hamiltonian Cycle 
+- Hamiltonian Cycle
 
 - Strongly Connected Components
 
@@ -122,3 +122,7 @@ I will be using this repository for future projects and leetcode practice.
 | Insertion Sort | O(n^2) |
 | Merge Sort | O(n * log(n)) |
 | Quick Sort | O(n * log(n)) |
+| Randomized Quick Sort | O(n * log(n)) |
+| HeapSort | O(n * log(n)) |
+| Counting Sort | O(n + k) |
+| Radix Sort| O(n * k) |
