@@ -1,7 +1,7 @@
 # Algorithms and Data Structures
 This repository works as a database for the data structures and algorithms I have studied and implemented in Java.
 
-I will be using this repository for future projects and leetcode practice.
+I will be using this repository for future projects and interview practice.
 
 ## Data Structures
 
@@ -45,7 +45,7 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Graph Breadth-First Search](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/GraphTraversal/BreadthFirstSearch)
 
-### Sorting Algorithms
+### Sort Algorithms
 
 - [Bubble Sort](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/BubbleSort)
 
@@ -63,40 +63,10 @@ I will be using this repository for future projects and leetcode practice.
 
 - [Radix Sort](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/RadixSort)
 
-### Other Algorithms
+### Graph Algorithms
+
 - [Bellman-Ford](https://github.com/Tales-Andrade/algorithms-and-data-structures-implementations/tree/main/algorithms/BellmanFord)
 
-- Floyd-Warshall
-
-- Kruskal's
-
-- Djikstra
-
-- Prim's
-
-- Topological Sorting
-
-- Eulerian Path
-
-- Eulerian Cycle
-
-- Hamiltonian Cycle
-
-- Strongly Connected Components
-
-- Knapsack
-
-- Hamming Distance
-
-- Huffman's
-
-- Gale-Shapley
-
-- Ford-Fulkerson
-
-- Karatsuba Multiplication
-
-- Strassen's
 
 ## Data Structure Time Complexity
 
