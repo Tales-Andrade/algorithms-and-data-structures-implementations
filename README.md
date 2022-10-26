@@ -1,7 +1,7 @@
 # Algorithms and Data Structures
-This repository works as a database for the data structures and algorithms I have studied and implemented in Java.
+Repository containing knowledge about implementations, time complexity and leetcode questions of data structures and algorithms in Java.
 
-I will be using this repository for future projects and interview practice.
+This repository has a purely educational purpose.
 
 ## Data Structures
 
